@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.css"></script>
+<!-- <script
+  src="https://code.jquery.com/jquery-3.4.0.slim.min.js"
+  integrity="sha256-ZaXnYkHGqIhqTbJ6MB4l9Frs/r7U4jlx7ir8PJYBqbI="
+  crossorigin="anonymous"></script> -->
+  <!-- <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.js"></script>
+  
+<style type="text/css">
+    html,
+    body {
+      height: 100%;
+      margin: 0px;
+    }
+
+    .graph {
+      width: 100%;
+      height: 100%;
+    }
+
+    #main {
+      width: 100%;
+      height:  85%;
+    }
+
+    .interaction {
+      width: 100%;
+      height:  15%;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+  }   
+
+
+  </style>
+</head>
+
+<body>
+  
+
+
+  
+
+
+
+
+
+<div id="main">
+  <!-- from output.jsbin.com/pejohi -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-network.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-network.min.css" rel="stylesheet" type="text/css" />
+
+  <div class="graph" id="visualization1"></div>
+
+
+  <script type="text/javascript">
+
+    var action = function () {
+      var container = document.getElementById("visualization");
+      container.parentNode.removeChild(container);
+    }
+
+    var nodes = new vis.DataSet([{'id': 398028331, 'group': 'Month', 'label': '4 1850', 'title': 'month:4<br> year:1850'}, {'id': 398031919, 'group': 'Month', 'label': '12 1866', 'title': 'month:12<br> year:1866'}, {'id': 398032953, 'group': 'Month', 'label': '9 1850', 'title': 'month:9<br> year:1850'}, {'id': 398014648, 'group': 'Year', 'label': '2005', 'title': 'year:2005'}, {'id': 398024635, 'group': 'Month', 'label': '11 1850', 'title': 'month:11<br> year:1850'}, {'id': 398014650, 'group': 'Month', 'label': '11 2005', 'title': 'month:11<br> year:2005'}, {'id': 398032945, 'group': 'Month', 'label': '12 1877', 'title': 'month:12<br> year:1877'}, {'id': 398025481, 'group': 'Month', 'label': '5 1850', 'title': 'month:5<br> year:1850'}, {'id': 398033547, 'group': 'Month', 'label': '9 1877', 'title': 'month:9<br> year:1877'}, {'id': 398015631, 'group': 'Month', 'label': '10 2248', 'title': 'month:10<br> year:2248'}, {'id': 398015630, 'group': 'Year', 'label': '2248', 'title': 'year:2248'}, {'id': 398030981, 'group': 'Month', 'label': '1 1877', 'title': 'month:1<br> year:1877'}, {'id': 398030085, 'group': 'Month', 'label': '3 1877', 'title': 'month:3<br> year:1877'}, {'id': 398033796, 'group': 'Month', 'label': '7 1850', 'title': 'month:7<br> year:1850'}, {'id': 398028701, 'group': 'Month', 'label': '6 1850', 'title': 'month:6<br> year:1850'}, {'id': 398033809, 'group': 'Month', 'label': '11 1877', 'title': 'month:11<br> year:1877'}, {'id': 398033811, 'group': 'Month', 'label': '10 1866', 'title': 'month:10<br> year:1866'}, {'id': 398015250, 'group': 'Year', 'label': '2275', 'title': 'year:2275'}, {'id': 398015253, 'group': 'Month', 'label': '12 2275', 'title': 'month:12<br> year:2275'}, {'id': 398024672, 'group': 'Month', 'label': '1 1850', 'title': 'month:1<br> year:1850'}, {'id': 398030690, 'group': 'Month', 'label': '4 1877', 'title': 'month:4<br> year:1877'}, {'id': 398023908, 'group': 'Month', 'label': '8 1850', 'title': 'month:8<br> year:1850'}, {'id': 398025063, 'group': 'Month', 'label': '2 1850', 'title': 'month:2<br> year:1850'}, {'id': 398030075, 'group': 'Year', 'label': '1877', 'title': 'year:1877'}, {'id': 398027632, 'group': 'Month', 'label': '3 1850', 'title': 'month:3<br> year:1850'}, {'id': 398027634, 'group': 'Month', 'label': '12 1850', 'title': 'month:12<br> year:1850'}, {'id': 398014661, 'group': 'Month', 'label': '6 2005', 'title': 'month:6<br> year:2005'}, {'id': 398026951, 'group': 'Month', 'label': '10 1850', 'title': 'month:10<br> year:1850'}, {'id': 0, 'group': 'Timetree', 'label': 'Time Tree', 'title': 'name:Time Tree'}, {'id': 398023896, 'group': 'Year', 'label': '1850', 'title': 'year:1850'}, {'id': 398023897, 'group': 'Year', 'label': '1866', 'title': 'year:1866'}, {'id': 398031580, 'group': 'Month', 'label': '6 1877', 'title': 'month:6<br> year:1877'}]);
+    var edges = new vis.DataSet([{'from': 398033796, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398014648, 'to': 0, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398032953, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398028701, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398031919, 'to': 398023897, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398030981, 'to': 398030075, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398015253, 'to': 398015250, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398025063, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398033547, 'to': 398030075, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398023908, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398015250, 'to': 0, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398030085, 'to': 398030075, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398025481, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398033809, 'to': 398030075, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398031580, 'to': 398030075, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398027634, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398026951, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398015630, 'to': 0, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398032945, 'to': 398030075, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398015631, 'to': 398015630, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398024635, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398014650, 'to': 398014648, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398024672, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398014661, 'to': 398014648, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398030690, 'to': 398030075, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398023897, 'to': 0, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398028331, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398023896, 'to': 0, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398030075, 'to': 0, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398027632, 'to': 398023896, 'label': 'OF', 'arrows': 'to', 'title': ''}, {'from': 398033811, 'to': 398023897, 'label': 'OF', 'arrows': 'to', 'title': ''}]);
+
+    var data = {
+      nodes: nodes,
+      edges: edges
+    };
+
+    var options = {
+      "manipulation": false,
+      "autoResize": true,
+      "height": "100%",
+      "width": "100%",
+      "interaction": {
+        "dragNodes": true,
+        "dragView": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false,
+        "hover": true,
+        "navigationButtons": true,
+        "selectable": true,
+        "selectConnectedEdges": true,
+        "tooltipDelay": 300,
+        "zoomView": true,
+        "keyboard": {
+          "enabled": false,
+          "speed": {
+            "x": 10,
+            "y": 10,
+            "zoom": 0.02
+          },
+          "bindToWindow": true
+        }
+      },
+      "edges": {
+        "font":{
+          "size": 14
+        },
+      },
+      "nodes": {
+        "font":{
+          "size": 14
+        },
+        "size": 25,
+        "shape": "box",
+        "color": {
+          "border": "#2B7CE9",
+          "background": "#97C2FC",
+          "highlight": {
+            "border": "#2B7CE9",
+            "background": "#D2E5FF"
+          },
+          "hover": {
+            "border": "white",
+            "background": "white"
+          }
+        }
+      },
+      "physics": {
+            "barnesHut": {
+            "centralGravity": 0,
+            "springLength": 240
+            }
+        },
+      "groups": {
+        "neighbours": {
+          "color": "#E6E6E6"
+        },
+        "matches": {
+          "color": "#97C2FC"
+        },
+        "acc": {
+          "color": "#008C6E"
+        },
+        "entity": {
+          "color": "#497C92" // "#BEAFB4",
+        },
+        "selected": {
+          "color": "#C16060" // "#872D32"
+        }
+      },
+
+      "locale": "en_EN"
+    };
+
+    var container = document.getElementById("visualization1");
+
+    var network = new vis.Network(container, data, options);
+
+
+    var hasNetworkStabilized = false;
+    network.on("stabilized", function (properties) {
+
+      if (!hasNetworkStabilized) {
+        hasNetworkStabilized = true;
+
+        network.storePositions();
+        setNodesMoveable(data.nodes.get(), false);
+
+        network.fit();
+      }
+    });
+
+    network.on("dragStart", function (properties) {
+      if (properties.nodes.length) {
+        var node = data.nodes.get(properties.nodes[0]);
+        setNodesMoveable([node], true);
+      }
+    });
+
+    network.on("dragEnd", function (properties) {
+      if (properties.nodes.length) {
+        var node = data.nodes.get(properties.nodes[0]);
+        setNodesMoveable([node], false);
+      }
+    });
+
+    setNodesMoveable = function (nodes, isMoveable) {
+
+      // first store positions
+      network.storePositions();
+
+      var updates = [];
+      var keys = Object.keys(nodes);
+
+      for (var i = 0; i < keys.length; i++) {
+
+        var id = nodes[keys[i]].id;
+
+        var update = {
+          id: id,
+          fixed: {  // v4: formerly allowToMoveX, allowToMoveY
+            x: !isMoveable,
+            y: !isMoveable
+          }
+        };
+
+        updates.push(update);
+
+      }
+
+      data.nodes.update(updates);
+
+      console.log(updates);
+
+    };
+  </script>
+
+</div>
+
+
+</body>
+
+</html>
