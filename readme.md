@@ -1,11 +1,11 @@
-![GrApH AI](logo)
-### Apply graph technology to make healthcare data AI-friendly from the ground up.
+![GrApH AI](img/thumbnail_group_name.png)  
 
 Table of Contents
 1. [Introduction]
 2. Getting Started
 3. To-do list
 
+***
 <a name="introduction"></a>
 
 ## 1. Introduction
@@ -15,6 +15,7 @@ We are working use-case by use-case with real patient data to build a foundation
 
 We currently have a single shared database holding anonymized patient data and the early stages of a knowledge graph, hosted in San Diego, California. We communicate through Slack and regularly scheduled working group meetings. Our code is pushed to GitHub under the MIT license, which means we allow anyone to build upon our work even in proprietary, commercial products. We support those who want to go out and make things happen in the real world, and we would love to have you join us.
 
+***
 ## 2. Getting Started
 The GrApH AI community has two repos:
 - A Credentialled_Access repo for any documents or code that may contain patient-level data. The data is anonymized, but we honor our data use agreement and protect the patients from possible identification by requiring all users to gain physionet access and sign the data use agreement prior to accessing this repo. 
@@ -22,5 +23,6 @@ The GrApH AI community has two repos:
 
 Coding standards can be found in our Wiki <link>.
 
+***
 # 3. To-do list
 - finish this readme
