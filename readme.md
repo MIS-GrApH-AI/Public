@@ -24,7 +24,7 @@ The GrApH AI community has two repos:
 - A Credentialled_Access repo for any documents or code that may contain patient-level data. The data is anonymized, but we honor our data use agreement and protect the patients from possible identification by requiring all users to gain physionet access and sign the data use agreement prior to accessing this repo. 
 - A Public repo for everything else.
 
-Coding standards will be found in our [Wiki](<link>).
+Coding standards and conventions will be found in our [Wiki](https://github.com/MIS-GrApH-AI/Public/wiki/Coding-standards-&-Conventions).
 
 ***
 <a name="to-do"></a>
