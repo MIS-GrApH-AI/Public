@@ -13,7 +13,7 @@ The emerging uses of artificial intelligence are transforming many industries, b
 
 We are working use-case by use-case with real patient data to build a foundation of knowledge, a toolkit, and a corps of colleagues to act as a springboard for real-world implementations. In addition to use cases, we work to address global issues such as human-machine interfaces and knowledge graphing. 
 
-We currently have a single shared database holding anonymized patient data and the early stages of a knowledge graph, hosted in San Diego, California. We communicate through Slack and regularly scheduled working group meetings. Our code is pushed to GitHub under the MIT license, which means we allow anyone to build upon our work even in proprietary, commercial products. We support those who want to go out and make things happen in the real world, and we would love to have you join us.
+We currently have a single shared [Neo4j](https://github.com/MIS-GrApH-AI/Public/wiki/Coding-standards-&-Conventions) database holding anonymized patient data and the early stages of a knowledge graph, hosted in San Diego, California. We communicate through Slack and regularly scheduled working group meetings. Our code is pushed to GitHub under the MIT license, which means we allow anyone to build upon our work even in proprietary, commercial products. We support those who want to go out and make things happen in the real world, and we would love to have you join us.
 
 ***
 
