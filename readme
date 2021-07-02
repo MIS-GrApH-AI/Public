@@ -1,10 +1,12 @@
-# Mission: 
+![GrApH AI](logo)
 ### Apply graph technology to make healthcare data AI-friendly from the ground up.
 
 Table of Contents
-1. Introduction
+1. [Introduction]
 2. Getting Started
 3. To-do list
+
+<a name="introduction"></a>
 
 ## 1. Introduction
 The emerging uses of artificial intelligence are transforming many industries, but the healthcare sector lags behind this progress partly because the production databases holding patient data are too poorly organized to run artificial intelligence algorithms online. Instead, research centers are creating isolated, curated databases to develop proof-of-concept algorithms. This work is daily producing impressive results that demonstrate the potential utility of artificial intelligence in healthcare, but these results rarely make it from the research database to be applied to the online databases that support day-to-day patient care. To address this problem, we have organized an open, sharing community of physicians, data scientists, data engineers, software engineers, students, and others inspired by a common vision: to make healthcare data AI-friendly from the ground up.
