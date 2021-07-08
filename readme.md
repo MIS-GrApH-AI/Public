@@ -23,7 +23,7 @@ You can visit our [website](https://www.misociety.org/graph-working-group) or [w
 
 ## 2. Getting Started
 The GrApH AI community has two repos:
-- A [Credentialled_Access](https://github.com/MIS-GrApH-AI/Credentialed_Access) repo for any documents or code that interact with patient-level data. In order to access this repository, you must submit proof that you have completed the [credentialling process outlind by PhysioNet](https://mimic.mit.edu/docs/gettingstarted/). The data are anonymized and we require all patient-level data to be scrubbed from anything pushed to any of our repositories, but we still require each group member to prove their PhysioNet credentials before allowing access to this repository to ensure . 
+- A [Credentialled_Access](https://github.com/MIS-GrApH-AI/Credentialed_Access) repo for any documents or code that interact with patient-level data. In order to access this repository, you must submit proof that you have completed the [credentialling process outlind by PhysioNet](https://mimic.mit.edu/docs/gettingstarted/). 
 - A [Public](https://github.com/MIS-GrApH-AI/Public) repo for everything else.
 
 More detailed documentation is being developed in our [Wiki](https://github.com/MIS-GrApH-AI/Public/wiki).
