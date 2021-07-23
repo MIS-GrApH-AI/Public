@@ -3,7 +3,7 @@
 Table of Contents
 1. [Introduction](#introduction)
 2. [Getting Started](#getting-started)
-3. [To-do list](#to-do)
+3. [Critical Path](#critical-path)
 
 ***
 <a name="introduction"></a>
@@ -29,13 +29,13 @@ The GrApH AI community has two repos:
 More detailed documentation is being developed in our [Wiki](https://github.com/MIS-GrApH-AI/Public/wiki).
 
 ***
-<a name="to-do"></a>
+<a name="critical-path"></a>
 
-## 3. To-do list  
+## 3. Critical Path  
 ### Overall Mission:  
 Apply graph technology to make the world's medical data AI-friendly from the ground up 
   
-### Next Milestones:  
+### Near-Term Milestones:  
 - Embed the world's medical knowledge into a knowledge graph
   - Develop a data model that maps RxNorm, MED-RT, and MeSH relationships onto a base of UMLS concepts
   - Import UMLS concepts into a graph
@@ -44,7 +44,7 @@ Apply graph technology to make the world's medical data AI-friendly from the gro
   - Import MeSH relationships
 - Fulfill 1 or more use cases that become possible given the new knowledge graph
   
-### Upcoming Milestones:  
+### Mid-Term Milestones:  
 - Scrape the world's medical literature for relationships among UMLS concepts
   - Find or create a set of human-verified subject-predicate-object triples for the sentences in SemMedDB
   - Create a deep learning model to extract subject-predicate-object triples from the sentences in SemMedDB
@@ -52,8 +52,13 @@ Apply graph technology to make the world's medical data AI-friendly from the gro
   - Apply the deep learning model to all of the world's medical literature and assess performance
   - Import the subject-predicate-object triples from the deep learning model into the UMLS-based knowledge graph
 - Fulfill 1 or more use cases that become possible given the enhanced knowledge graph
+
+### Long-Term Milestones
+- Complete the world's most clinically powerful knowledge graph in a form that can be shared conveniently, and without licensing restrictions
+- Complete a graph-based data model for patient data that supports state-of-the-art interoperability standards
+- Incorporate multi-modal data including imaging, time-series data, genomics, metabolomics, etc.
   
 ### Continuous contributions:  
 - Identify the up-to-date world's best tools for any given task
 - Share experiences of healthcare and health data from diverse locations around the world
-- Organize a knowledge base for graphs 
+- Lower the barriers for participation
