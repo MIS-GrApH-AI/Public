@@ -59,6 +59,6 @@ Apply graph technology to make the world's medical data AI-friendly from the gro
 - Incorporate multi-modal data including imaging, time-series data, genomics, metabolomics, etc.
   
 ### Continuous contributions:  
-- Identify the up-to-date world's best tools for any given task
+- Identify the world's best tools for any given task
 - Share experiences of healthcare and health data from diverse locations around the world
 - Lower the barriers for participation
