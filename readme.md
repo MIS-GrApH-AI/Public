@@ -35,29 +35,67 @@ More detailed documentation is being developed in our [Wiki](https://github.com/
 ### Overall Mission:  
 Apply graph technology to make the world's medical data AI-friendly from the ground up 
   
-### Near-Term Milestones:  
-- Embed the world's medical knowledge into a knowledge graph
-  - Develop a data model that maps RxNorm, MED-RT, and MeSH relationships onto a base of UMLS concepts
-  - Import UMLS concepts into a graph
-  - Import RxNorm relationships
-  - Import MED-RT relationships
-  - Import MeSH relationships
-- Fulfill 1 or more use cases that become possible given the new knowledge graph
-  
-### Mid-Term Milestones:  
-- Scrape the world's medical literature for relationships among UMLS concepts
-  - Find or create a set of human-verified subject-predicate-object triples for the sentences in SemMedDB
-  - Create a deep learning model to extract subject-predicate-object triples from the sentences in SemMedDB
-  - Apply the deep learning model to all of the sentences in SemMedDB and assess performance
-  - Apply the deep learning model to all of the world's medical literature and assess performance
-  - Import the subject-predicate-object triples from the deep learning model into the UMLS-based knowledge graph
-- Fulfill 1 or more use cases that become possible given the enhanced knowledge graph
+---
+### Program: Embed the world's medical knowledge into a knowledge graph
+- Program infrastructure
+  - Database hosting
+  - Collaboration tools
+  - Governance
+  - Team leadership, skill resourcing, participation
 
-### Long-Term Milestones
-- Complete the world's most clinically powerful knowledge graph in a form that can be shared conveniently, and without licensing restrictions
-- Complete a graph-based data model for patient data that supports state-of-the-art interoperability standards
-- Incorporate multi-modal data including imaging, time-series data, genomics, metabolomics, etc.
-  
+#### Project: Incorporate existing data sources into a UMLS-based knowledge graph
+- Milestones (completable in ~2-weeks):   
+  - Develop a data model that maps RxNorm, MED-RT, and MeSH relationships onto a base of UMLS concepts
+  - Import RxNorm, MED-RT, and MeSH
+  - Fulfill 1 or more use cases that become possible given the new knowledge graph
+  - Package the knowledge graph creation process in a conventiently repeatable way
+  - Create an API for public access to the knowledge graph
+  - Reflect on and publish lessons learned 
+
+#### Project: Scrape the world's medical literature for relationships among UMLS concepts
+- Milestones:
+  - Create a deep learning model to extract subject-predicate-object triples from the sentences in SemMedDB
+  - Apply the deep learning model to all of the world's medical literature and assess performance
+  - Incorporate the subject-predicate-object identified by the deep learning model into the main knowledge graph
+  - Fulfill 1 or more use cases that become possible given the improved knowledge graph
+  - Package the deep learning model for scraping medical literature in a conventiently repeatable way
+  - Reflect on and publish lessons learned 
+
+---
+### Program: Build a graph model for patient data that supports interoperability
+- Program infrastructure and project enablement
+  - Database hosting
+  - Collaboration tools
+  - Governance
+  - Team leadership, skill resourcing, participation
+
+#### Project: Place MIMIC-III data in OMOP format in a graph
+- Milestones:
+  - Use what has already been built by: https://github.com/MIT-LCP/mimic-omop and https://github.com/NUSCRIPT/OMOP_to_Graph to create an early prototype
+  - Roadmap key deliverables necessary to complete the project
+  - Coordinate with NUSCRIPT and MIT-LCP to complete the deliverables
+  - Fulfill 1 or more use cases that become possible given the new data model in graph form
+  - Package the import code and the database in a conventiently reusable way
+  - Reflect on and publish lessons learned 
+
+---
+### Program: Incorporate multi-modal data including imaging, time-series data, genomics, metabolomics, etc.
+- Program infrastructure and project enablement
+  - Database hosting
+  - Collaboration tools
+  - Governance
+  - Team leadership, skill resourcing, participation
+
+---
+### Program: Partner to apply a clinical use case in a real-world clinical setting
+- Program infrastructure
+  - Database hosting
+  - Collaboration tools
+  - Governance
+  - Partnerships
+  - Funding
+
+---
 ### Continuous contributions:  
 - Identify the world's best tools for any given task
 - Share experiences of healthcare and health data from diverse locations around the world
