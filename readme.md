@@ -55,6 +55,12 @@ Apply graph technology to make the world's medical data AI-friendly from the gro
 #### Project: Scrape the world's medical literature for relationships among UMLS concepts
 - Milestones:
   - Create a deep learning model to extract subject-predicate-object triples from the sentences in SemMedDB
+    1. Pre-train a deep learning model using SemMedDB
+    2. Have the DL model annotate subject-predicate-object triples
+    3. Crowdsource human corrections to the model’s annotations
+    4. Retrain the model on new data coming in from the human crowd
+    5. Repeat steps 2-4 until human annotators no longer need to correct the DL model’s annotations
+
   - Apply the deep learning model to all of the world's medical literature and assess performance
   - Incorporate the subject-predicate-object identified by the deep learning model into the main knowledge graph
   - Fulfill 1 or more use cases that become possible given the improved knowledge graph
