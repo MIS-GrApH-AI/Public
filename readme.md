@@ -67,6 +67,8 @@ Apply graph technology to make the world's medical data AI-friendly from the gro
   - Package the deep learning model for scraping medical literature in a conventiently repeatable way
   - Reflect on and publish lessons learned 
 
+#### Project: Apply causal inference to derive causal relationships from patient data
+
 ---
 ### Program: Build a graph model for patient data that supports interoperability
 - Program infrastructure and project enablement
