@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Medical-Knowledge-Graph-Overview</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Medical Knowledge Graph Issues</h1>
+    <p>ES version 2021-08-08 /</p>
+    <ul>
+      <li>Introduction:
+        <ul>
+          <li>Graph technologies are expected to be useful in the following
+            objectives:<br>
+            <ul>
+              <li>Decision support, currently our first priority,</li>
+              <li>Research,</li>
+              <li>Education.</li>
+            </ul>
+          </li>
+          <li>Therefore a medical knowledge database is necessary:
+            <ul>
+              <li>Although the requirement for decision support are not yet
+                exactly known, but anyhow graph allowing easy access and
+                navigation in a large space of standardized medical knowledge.</li>
+            </ul>
+          </li>
+          <li>Current objectives:
+            <ul>
+              <li>(1) Definition of the models suited for the above objectives.</li>
+              <li>(2) Find source of information and procedure to convert
+                available information into graphs.</li>
+            </ul>
+          </li>
+          <li>Such a knowledge base include 3 aspects, concepts, relations
+            between concepts and "clinical modifiers".</li>
+        </ul>
+      </li>
+      <li>( A ) Concepts:
+        <ul>
+          <li>At first sight it looks that many definitions of concepts are
+            already available in diverse classification systems.</li>
+          <li>A database of concepts must include at least complaints, symptoms,
+            examinations, problems or diagnoses, treatment, etc...</li>
+          <li>There is a need for an unified way to identify concepts, as UMLS.</li>
+          <li>Historically most existing classification systems have bee created
+            for epidemiological purposes, but it is not certain that our
+            requirements for decision support will be completely covered. In
+            general epidemiological systems work on large populations while the
+            information needed for the care of individual patients could be a
+            little different. In epidemiology many information are simply seen.
+            as true or false without any gradation. The ICD created about 100
+            years ago was intended for processing with punch cards.</li>
+          <li>Sources of concepts:
+            <ul>
+              <li>The big classifications from UMLS, LOINC, pharmacology, etc...
+                to be converted in graphs.</li>
+            </ul>
+          </li>
+          <li>Remark: relationships are anywhere, at the end definition of
+            concepts are explained as links to other concepts. In any popular
+            dictionary words are described by means of other words i.e. links to
+            other concepts.</li>
+        </ul>
+      </li>
+      <li>( B ) Relationships between concept:
+        <ul>
+          <li>Precise information about relationships between&nbsp; concepts
+            will be less easy to find.</li>
+          <li>Main types of relations in 2 directions:
+            <ul>
+              <li>From Symptoms to Problems</li>
+              <li>From Problems to associated Symptoms</li>
+              <li>From Problem to recommendations of further examinations.</li>
+              <li>From Problem to recommended treatments.</li>
+              <li>From Treatment to Problems, including unwanted side effects.</li>
+            </ul>
+          </li>
+          <li>Sources of relationships:
+            <ul>
+              <li>Courses intended for medical students.</li>
+              <li>Textbooks, for example Harrison.</li>
+              <li>Research based on large population of patient like MIMIC could
+                help to quantify relationships.</li>
+              <li>Expertise from very qualified medical professionals.</li>
+              <li>Exercises of graphs on a white board in front of a group of
+                students.</li>
+            </ul>
+          </li>
+          <li>Format:
+            <ul>
+              <li>Conversion of free text. The relations should be quantified,
+                many adjectives should be converted into coefficients.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>( C ) "Clinical modifiers":
+        <ul>
+          <li>Clinical modifiers are essential for both concepts and relations.</li>
+          <li>Generic attributes:
+            <ul>
+              <li>Degree of belief (by the author)</li>
+              <li>Intensity, severity,</li>
+              <li>Frequency,</li>
+              <li>Degree of trust in the source of information.</li>
+              <li>Importance, for example if life threatening issue or simple
+                disagreement. </li>
+              <li>....</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>Attributes: of concepts
+            <ul>
+              <li>Main types of concepts:
+                <ul>
+                  <li>Observation, i.e. the facts.</li>
+                  <li>Problems, synthesis of a set of facts, hypothesis,
+                    diagnose.</li>
+                  <li>Actions, exploratory and therapeutic actions.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Attributes of relations:
+            <ul>
+              <li>Causal or simple co-occurence.</li>
+              <li>Relation weight:
+                <ul>
+                  <li>Relative weights of relations are essential in clinical
+                    decisions.</li>
+                  <li>This weight could be represented as coefficients from 0.
+                    to 1. For example weak relations as 0.5 or fully valid
+                    relations as 1.0<br>
+                    <ul>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Exclusion or negative relations:
+                <ul>
+                  <li>Could be seen a separate type of relation ?</li>
+                </ul>
+              </li>
+              <li>Main relations types, provisional brain storming list:
+                <ul>
+                  <li>ASSOCIATED_WITH</li>
+                  <li>SUGGEST</li>
+                  <li>EXCLUDE</li>
+                  <li>RECOMMAND</li>
+                  <li>CAUSED_BY</li>
+                  <li>CONSEQUECE_OF</li>
+                  <li>INCOMPATIBILITY:</li>
+                  <li>RESPONSIBLE_FOR</li>
+                  <li>INITIATED</li>
+                  <li>ASSOCIATED_DURING_VISIT</li>
+                  <li>ASSOCIATED_WITH</li>
+                  <li>MEASUREMENT_OF</li>
+                  <li>...</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
