@@ -95,6 +95,9 @@ Apply graph technology to make the world's medical data AI-friendly from the gro
   - Team leadership, skill resourcing, participation
 
 ---
+### Program: Process medical data in streaming form in addition to batch to deal with real-time work
+
+---
 ### Program: Partner to apply a clinical use case in a real-world clinical setting
 - Program infrastructure
   - Database hosting
