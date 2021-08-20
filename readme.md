@@ -1,12 +1,12 @@
 ![GrApH AI](img/thumbnail_group_name.png)  
 
-Table of Contents
+<!-- TABLE OF CONTENTS -->
 1. [Introduction](#introduction)
 2. [Getting Started](#getting-started)
 3. [Critical Path](#critical-path)
 
 ***
-<a name="introduction">Top</a>
+<a name="introduction"></a>
 
 ## 1. Introduction
 The emerging uses of artificial intelligence are transforming many industries, but the healthcare sector lags behind this progress partly because the production databases holding patient data are too poorly organized to run artificial intelligence algorithms online. Instead, research centers are creating isolated, curated databases to develop proof-of-concept algorithms. This work is daily producing impressive results that demonstrate the potential utility of artificial intelligence in healthcare, but these results rarely make it from the research database to be applied to the online databases that support day-to-day patient care. To address this problem, we have organized an open, sharing community of physicians, data scientists, data engineers, software engineers, students, and others inspired by a common vision: to make healthcare data AI-friendly from the ground up.
@@ -19,7 +19,7 @@ You can visit our [website](https://www.misociety.org/graph-working-group) or [w
 
 ***
 
-<a name="getting-started">Top</a>
+<a name="getting-started"></a>
 
 ## 2. Getting Started
 The GrApH AI community has two repos:
@@ -29,7 +29,7 @@ The GrApH AI community has two repos:
 More detailed documentation is being developed in our [Wiki](https://github.com/MIS-GrApH-AI/Public/wiki).
 
 ***
-<a name="critical-path">Top</a>
+<a name="critical-path"></a>
 
 ## 3. Critical Path  
 ### Overall Mission:  
