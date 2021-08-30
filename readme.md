@@ -55,7 +55,7 @@ Team Lead: Nikesh Shah nikesh.shah@c-bia.com
   - Reflect on and publish lessons learned 
 
 #### Project: Scrape the world's medical literature for relationships among UMLS concepts  
-Team lead: Tim McLerran  
+Team lead: Tim McLerran tmclerran@gmail.com   
 - Milestones:
   - Create a deep learning model to extract subject-predicate-object triples from the sentences in SemMedDB
     1. Pre-train a deep learning model using SemMedDB
