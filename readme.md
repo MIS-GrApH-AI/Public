@@ -58,7 +58,7 @@ Apply graph technology to make the world's medical data AI-friendly from the gro
   - Create a deep learning model to extract subject-predicate-object triples from the sentences in SemMedDB
     1. Pre-train a deep learning model using SemMedDB
     2. Have the DL model annotate subject-predicate-object triples
-    3. Crowdsource human corrections to the model’s annotations
+    3. Crowdsource human corrections to the model’s annotations (ask medical schools, pre-med student groups/clubs, for help with annotation)
     4. Retrain the model on new data coming in from the human crowd
     5. Repeat steps 2-4 until human annotators no longer need to correct the DL model’s annotations
 
