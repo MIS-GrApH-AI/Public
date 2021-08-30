@@ -45,7 +45,7 @@ Apply graph technology to make the world's medical data AI-friendly from the gro
 
 #### Project: Incorporate existing data sources into a UMLS-based knowledge graph  
 Team Lead: Nikesh Shah nikesh.shah@c-bia.com  
-- Milestones (completable in ~2-weeks):   
+- Milestones (chunks of work completable in ~2-weeks):   
   - Develop a data model that maps RxNorm, MED-RT, and MeSH relationships onto a base of UMLS concepts
   - Identify a core of unique logical relationship types independent of spoken language, and map synonyms from multiple languages to these unique relationship types
   - Import RxNorm, MED-RT, and MeSH
