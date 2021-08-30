@@ -43,7 +43,7 @@ Apply graph technology to make the world's medical data AI-friendly from the gro
   - Governance
   - Team leadership, skill resourcing, participation
 
-#### Project: Incorporate existing data sources into a UMLS-based knowledge graph  
+#### [Project: Incorporate existing data sources into a UMLS-based knowledge graph](https://github.com/MIS-GrApH-AI/Public/projects/1)  
 Team Lead: Nikesh Shah nikesh.shah@c-bia.com  
 - Milestones (chunks of work completable in ~2-weeks):   
   - Develop a data model that maps RxNorm, MED-RT, and MeSH relationships onto a base of UMLS concepts
@@ -54,7 +54,7 @@ Team Lead: Nikesh Shah nikesh.shah@c-bia.com
   - Create an API for public access to the knowledge graph
   - Reflect on and publish lessons learned 
 
-#### Project: Scrape the world's medical literature for relationships among UMLS concepts  
+#### [Project: Scrape the world's medical literature for relationships among UMLS concepts](https://github.com/MIS-GrApH-AI/Public/projects/2)  
 Team lead: Tim McLerran tmclerran@gmail.com   
 - Milestones:
   - Create a deep learning model to extract subject-predicate-object triples from the sentences in SemMedDB
