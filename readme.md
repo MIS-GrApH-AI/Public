@@ -54,7 +54,7 @@ Team Lead: Nikesh Shah nikesh.shah@c-bia.com
   - Create an API for public access to the knowledge graph
   - Reflect on and publish lessons learned 
 
-#### [Project: Scrape the world's medical literature for relationships among UMLS concepts](https://github.com/MIS-GrApH-AI/Public/projects/2)  
+#### [Project: Extract relationships among UMLS concepts from the world's medical literature](https://github.com/MIS-GrApH-AI/Public/projects/2)  
 Team lead: Tim McLerran tmclerran@gmail.com   
 - Milestones:
   - Create a deep learning model to extract subject-predicate-object triples from the sentences in SemMedDB
