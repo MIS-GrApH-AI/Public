@@ -70,7 +70,7 @@ Team lead: Tim McLerran tmclerran@gmail.com
   - Package the deep learning model for scraping medical literature in a conventiently repeatable way
   - Reflect on and publish lessons learned 
 
-#### Project: Create a public interface for the knowledge graph that allows for user review, discussion, and make edits. Professional reviewers can validate user edits. 
+#### Project: Create a public interface for the knowledge graph that allows users to review, discuss, and make edits. Professional reviewers can validate user edits. 
 
 #### Project: Apply causal inference to derive causal relationships from patient data
 
