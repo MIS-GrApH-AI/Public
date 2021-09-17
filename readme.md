@@ -2,8 +2,7 @@
 
 <!-- TABLE OF CONTENTS -->
 1. [Introduction](#introduction)
-2. [Getting Started](#getting-started)
-3. [Critical Path](#critical-path)
+2. [Critical Path](#critical-path)
 
 ***
 <a name="introduction"></a>
@@ -18,20 +17,9 @@ We currently have a single shared [Neo4j](https://github.com/MIS-GrApH-AI/Public
 You can also visit our [website](https://www.misociety.org/graph-working-group). 
 
 ***
-
-<a name="getting-started"></a>
-
-## 2. Getting Started
-The GrApH AI community has two repos:
-- A [Credentialled_Access](https://github.com/MIS-GrApH-AI/Credentialed_Access) repo for any documents or code that interact with patient-level data. In order to access this repository, you must submit proof that you have completed the [credentialling process outlind by PhysioNet](https://mimic.mit.edu/docs/gettingstarted/). 
-- A [Public](https://github.com/MIS-GrApH-AI/Public) repo for everything else.
-
-More detailed documentation is being developed in our [Wiki](https://github.com/MIS-GrApH-AI/Public/wiki).
-
-***
 <a name="critical-path"></a>
 
-## 3. Critical Path  
+## 2. Critical Path  
 ### Overall Mission:  
 Apply graph technology to make the world's medical data AI-friendly from the ground up 
   
